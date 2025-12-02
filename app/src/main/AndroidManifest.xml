@@ -12,7 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickDealApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".BBLogicaPesquisa"
+            android:exported="false" />
+        <activity
+            android:name=".BALogicaInicial"
+            android:exported="false" />
+        <activity
+            android:name=".ADLogicaSenhaB"
+            android:exported="false" />
+        <activity
+            android:name=".ACLogicaSenhaA"
+            android:exported="false" />
+        <activity
+            android:name=".AALogicaLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
