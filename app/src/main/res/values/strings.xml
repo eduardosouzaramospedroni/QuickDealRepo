@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">QuickDealApp</string>
+    <string name="app_name">Tela login - Quickdeal</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="texto_façacadastro">Faça seu Cadastro:</string>
+    <string name="texto_nomecompleto">Nome Completo</string>
+    <string name="texto_datanascimento">Data de Nascimento</string>
+    <string name="texto_email">E-mail</string>
+    <string name="texto_senha">Senha</string>
+    <string name="texto_cadastrar">Cadastrar</string>
+    <string name="btn_naocadastro">Não tenho Cadastro</string>
+    <string name="btn_esquecisenha">Esqueci a Senha</string>
+    <string name="txt_EsqueciSenha">Esqueci minha senha</string>
+    <string name="txt_redef">Para redefinir sua senha, informe o e-mail cadastrado na sua conta e lhe enviaremos um link com as instruções.</string>
+    <string name="txt_emailUser">Email de usuário:</string>
+    <string name="txt_confirmar">Confirmar</string>
+    <string name="txt_cancelar">Cancelar</string>
+    <string name="buscar">Buscar</string>
+    <string name="ativar_geolocalizao">Ativar geolocalização</string>
+    <string name="todo">TODO</string>
+    <string name="tudo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="digite_aqui">Digite aqui...</string>
+    <string name="assis_sp">Assis/SP</string>
+    <string name="navbar_inicio">Início</string>
+    <string name="navbar_restaurantes">Restaurantes</string>
+    <string name="navbar_diversos">Diversos</string>
+    <string name="navbar_ofertas">Ofertas</string>
+    <string name="str_texto1">Diversas ofertas!</string>
+    <string name="str_texto2">A nossa empresa se compromete com a satisfação do cliente!</string>
 </resources>
