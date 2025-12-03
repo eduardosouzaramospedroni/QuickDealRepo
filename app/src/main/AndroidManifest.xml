@@ -17,6 +17,9 @@
             android:name=".BALogicaInicial"
             android:exported="false" />
         <activity
+            android:name=".AFLogicaPerfil"
+            android:exported="false" />
+        <activity
             android:name=".AELogicaSenhaC"
             android:exported="false" />
         <activity
