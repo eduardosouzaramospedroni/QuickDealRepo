@@ -1,6 +1,8 @@
 package com.example.quickdealapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class ACLogicaSenhaA extends AppCompatActivity {
+
+    Button botao_voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +24,12 @@ public class ACLogicaSenhaA extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        botao_voltar = findViewById(R.id.btn_cancelar);
+        botao_voltar.setOnClickListener(view -> {
+            Intent mudartela = new Intent(ACLogicaSenhaA.this, AALogicaLogin.class);
+            startActivity(mudartela);
+        });
+
     }
 }
