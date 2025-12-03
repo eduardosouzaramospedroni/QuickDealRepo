@@ -17,7 +17,7 @@
             android:name=".BBLogicaPesquisa"
             android:exported="false" />
         <activity
-            android:name=".BALogicaInicial"
+            android:name=".AALogicaLogin"
             android:exported="false" />
         <activity
             android:name=".ADLogicaSenhaB"
@@ -29,7 +29,7 @@
             android:name=".ABLogicaCadastro"
             android:exported="true" />
         <activity
-            android:name=".AALogicaLogin"
+            android:name=".BALogicaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
