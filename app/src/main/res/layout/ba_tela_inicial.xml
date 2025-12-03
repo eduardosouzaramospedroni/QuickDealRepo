@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BALogicaInicial"
-    android:background="@color/cor_vermelho">
+    android:background="@color/cor_branco">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -25,58 +25,72 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_inicio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cor_branco"
-                android:text="Início"
-                android:textColor="@color/cor_cinza" />
+                android:text="@string/navbar_inicio"
+                android:textColor="@color/cor_cinza"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_restaurantes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cor_branco"
-                android:text="Restaurantes"
-                android:textColor="@color/cor_cinza" />
+                android:text="@string/navbar_restaurantes"
+                android:textColor="@color/cor_cinza"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btn_diversos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cor_branco"
-                android:text="Diversos"
-                android:textColor="@color/cor_cinza" />
+                android:text="@string/navbar_diversos"
+                android:textColor="@color/cor_cinza"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
         </LinearLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="210dp"
             android:layout_gravity="top"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@color/cor_vermelho">
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
-                app:srcCompat="@drawable/comidafundo" />
+                app:srcCompat="@drawable/comidafundo"
+                android:contentDescription="@string/textoimagemcomida"/>
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="217dp"
                 android:layout_height="107dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/quickdeal" />
+                app:srcCompat="@drawable/quickdeal"
+                android:contentDescription="@string/textoimagemquickdeal"/>
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="450dp"
             android:background="@color/cor_branco">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/textoimagemcentro"
+                app:srcCompat="@drawable/imagemcentro" />
 
         </FrameLayout>
 
@@ -85,40 +99,50 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/cor_amarela"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cor_branco"
         android:gravity="bottom"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <Button
-            android:id="@+id/button4"
+        <ImageButton
+            android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/cor_branco"
+            app:srcCompat="@drawable/home2"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-        <Button
-            android:id="@+id/button5"
+        <ImageButton
+            android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/cor_branco"
+            app:srcCompat="@drawable/pesquisa2"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-        <Button
-            android:id="@+id/button6"
+        <ImageButton
+            android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/cor_branco"
+            app:srcCompat="@drawable/star2"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-        <Button
-            android:id="@+id/button7"
+        <ImageButton
+            android:id="@+id/imageButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/cor_branco"
+            app:srcCompat="@drawable/perfil2"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

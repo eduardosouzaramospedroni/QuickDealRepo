@@ -28,4 +28,7 @@
     <string name="navbar_ofertas">Ofertas</string>
     <string name="str_texto1">Diversas ofertas!</string>
     <string name="str_texto2">A nossa empresa se compromete com a satisfação do cliente!</string>
+    <string name="textoimagemcomida">Imagem da comida</string>
+    <string name="textoimagemquickdeal">Logo do Quickdeal</string>
+    <string name="textoimagemcentro">Imagem do centro</string>
 </resources>
