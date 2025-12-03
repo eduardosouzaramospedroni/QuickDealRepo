@@ -50,7 +50,8 @@
                 android:background="@drawable/campo_redondo"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck" />
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck"
+                android:textColor="@color/cor_preto"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -66,8 +67,9 @@
                 android:layout_height="45dp"
                 android:background="@drawable/campo_redondo"
                 android:ems="10"
-                android:inputType="textPassword"
-                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                android:inputType="numberPassword"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                android:textColor="@color/cor_preto"/>
         </LinearLayout>
 
         <Button

@@ -10,36 +10,26 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ACLogicaSenhaA extends AppCompatActivity {
+public class AELogicaSenhaC extends AppCompatActivity {
 
     Button botao_voltar;
-
-    Button botao_continuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.ac_tela_senha_a);
+        setContentView(R.layout.ae_tela_senha_c);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        botao_voltar = findViewById(R.id.btn_cancelar);
+        botao_voltar = findViewById(R.id.btn_confirm);
         botao_voltar.setOnClickListener(view -> {
-            Intent mudartela = new Intent(ACLogicaSenhaA.this, AALogicaLogin.class);
+            Intent mudartela = new Intent(AELogicaSenhaC.this, AALogicaLogin.class);
             startActivity(mudartela);
         });
-
-
-        botao_continuar = findViewById(R.id.btn_confirm);
-        botao_continuar.setOnClickListener(view -> {
-            Intent mudartela = new Intent(ACLogicaSenhaA.this, ADLogicaSenhaB.class);
-            startActivity(mudartela);
-        });
-
 
     }
 }
