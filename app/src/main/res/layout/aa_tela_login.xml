@@ -35,7 +35,6 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="left"
             android:orientation="vertical">
 
             <TextView
@@ -83,6 +82,18 @@
             android:background="@drawable/botao_redondo"
             android:text="@string/btn_continuar"
             android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_naocadastro" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_esquecisenha" />
 
 
     </LinearLayout>
