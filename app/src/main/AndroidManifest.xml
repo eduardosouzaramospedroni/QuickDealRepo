@@ -24,6 +24,9 @@
             android:name=".ACLogicaSenhaA"
             android:exported="false" />
         <activity
+            android:name=".ABLogicaCadastro"
+            android:exported="true"/>
+        <activity
             android:name=".AALogicaLogin"
             android:exported="true">
             <intent-filter>
