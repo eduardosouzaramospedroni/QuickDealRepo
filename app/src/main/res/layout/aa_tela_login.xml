@@ -15,7 +15,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/quickdeal_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -23,7 +22,6 @@
             tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <TextView
-            android:id="@+id/txt_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -38,7 +36,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txt_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -56,7 +53,6 @@
                 tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck" />
 
             <TextView
-                android:id="@+id/txt_senha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -84,7 +80,7 @@
             android:textColor="@color/cor_preto" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_cadastrar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -93,7 +89,7 @@
             tools:ignore="TextSizeCheck,TextContrastCheck" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_esqueci_senha"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:background="@color/cor_transparente"
