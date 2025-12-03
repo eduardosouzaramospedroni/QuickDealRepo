@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickDealApp">
         <activity
+            android:name=".BCLogicaRestaurantes"
+            android:exported="false" />
+        <activity
             android:name=".BBLogicaPesquisa"
             android:exported="false" />
         <activity

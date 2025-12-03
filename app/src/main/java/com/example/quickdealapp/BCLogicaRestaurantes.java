@@ -11,32 +11,41 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class BALogicaInicial extends AppCompatActivity {
+public class BCLogicaRestaurantes extends AppCompatActivity {
+
+    Button botao_inicio;
 
     ImageButton botao_perfil;
 
-    Button botao_restaurantes;
+    ImageButton botao_home;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.ba_tela_inicial);
+        setContentView(R.layout.bc_tela_restaurantes);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        botao_perfil = findViewById(R.id.imageButton8);
-        botao_perfil.setOnClickListener(view -> {
-            Intent mudartela = new Intent(BALogicaInicial.this, AFLogicaPerfil.class);
+        botao_inicio = findViewById(R.id.btn_inicio);
+        botao_inicio.setOnClickListener(view -> {
+            Intent mudartela = new Intent(BCLogicaRestaurantes.this, BALogicaInicial.class);
             startActivity(mudartela);
         });
 
-        botao_restaurantes = findViewById(R.id.btn_restaurantes);
-        botao_restaurantes.setOnClickListener(view -> {
-            Intent mudartela = new Intent(BALogicaInicial.this, BCLogicaRestaurantes.class);
+        botao_perfil = findViewById(R.id.imageButton8);
+        botao_perfil.setOnClickListener(view -> {
+            Intent mudartela = new Intent(BCLogicaRestaurantes.this, AFLogicaPerfil.class);
+            startActivity(mudartela);
+        });
+
+        botao_home = findViewById(R.id.imageButton9);
+        botao_home.setOnClickListener(view -> {
+            Intent mudartela = new Intent(BCLogicaRestaurantes.this, BALogicaInicial.class);
             startActivity(mudartela);
         });
 
