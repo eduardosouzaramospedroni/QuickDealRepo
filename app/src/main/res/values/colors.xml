@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="red">#FF0000</color>
-    <color name="yellow">#FFDD00</color>
-    <color name="gray">#4A4A4A</color>
-    <color name="transpa">#00000000</color>
-    <color name="icon_gray">#555555</color>
-    <color name="accent_red">#EC2D2D</color>
-    <color name="pink">#C29B9B</color>
-    <color name="marrom">#4F3A3A</color>
+    <color name="cor_preto">#FF000000</color>
+    <color name="cor_branco">#FFFFFFFF</color>
+    <color name="cor_vermelho">#FF0000</color>
+    <color name="cor_amarela">#FFDD00</color>
+    <color name="cor_cinza">#4A4A4A</color>
+    <color name="cor_transparente">#00000000</color>
+    <color name="cor_cinza2">#555555</color>
+    <color name="cor_vermelho2">#EC2D2D</color>
+    <color name="cor_rosa">#C29B9B</color>
+    <color name="cor_marrom">#4F3A3A</color>
 </resources>
