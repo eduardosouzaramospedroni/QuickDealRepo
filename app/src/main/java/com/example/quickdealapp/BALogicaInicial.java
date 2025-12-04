@@ -15,6 +15,8 @@ public class BALogicaInicial extends AppCompatActivity {
 
     ImageButton botao_perfil;
 
+    ImageButton botao_favorito;
+
     Button botao_restaurantes;
 
     @Override
@@ -39,6 +41,13 @@ public class BALogicaInicial extends AppCompatActivity {
             Intent mudartela = new Intent(BALogicaInicial.this, BCLogicaRestaurantes.class);
             startActivity(mudartela);
         });
+
+        botao_favorito = findViewById(R.id.imageButton7);
+        botao_favorito.setOnClickListener(view -> {
+            Intent mudartela = new Intent(BALogicaInicial.this, BDLogicaFavorito.class);
+            startActivity(mudartela);
+        });
+
 
 
     }

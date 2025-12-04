@@ -36,4 +36,6 @@
     <string name="texto_idade">Idade:</string>
     <string name="texto_senha2">Senha:</string>
     <string name="texto_logout">LOGOUT</string>
+    <string name="texto_favoritos">Meus favoritos</string>
+    <string name="texto_burgerking">Imagem do Burger King</string>
 </resources>
